@@ -14,7 +14,10 @@ header{
 }
 
 .container{
-    width: 100%;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -104,4 +107,49 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container_participar{  
+    background-image: linear-gradient(rgba(0, 32, 112, 0.61), rgba(0, 31, 112, 0.61)), url(assets/bg-lol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_retangulo{
+    clip-path: polygon(100% 0, 100% 74%, 0 84%, 0 9%);
+    background-color: black;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box_texto_participar{
+    width: auto;
+    margin-top: 100px;
+    padding-left: 98px;
+}
+
+.box_texto_participar h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+
+.box_texto_participar p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    width: 668px;
+    text-align: justify;
+}
+
+.box_retangulo img{
+    width: 533px;
+    height: 511px;
 }
