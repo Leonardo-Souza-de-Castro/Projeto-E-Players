@@ -243,6 +243,7 @@ h1{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
+    margin: 15px 0;
 }
 
 .box_noticias_1{
@@ -298,6 +299,7 @@ h1{
     font-weight: bold;
     font-family: 'Titillium Web', sans-serif;
     color: white;
+    margin-top: 15px;
 }
 
 .box_proximas{
@@ -326,8 +328,17 @@ h1{
 footer{
     background-color: black;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 1200px;
+    height: auto;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 35px 0;
 }
 
 .links_uteis{
@@ -349,6 +360,7 @@ footer{
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    margin: 5px 0;
 }
 
 .paginas{
@@ -370,6 +382,7 @@ footer{
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
+    margin: 5px 0;
 }
 
 .logo_footer{
@@ -377,14 +390,40 @@ footer{
     height: 36px;
 }
 
-.redes_sociais{
-    width: 288px;
-    height: auto;
+.redes_sociais input{
+    width: 150px;
+    height: 32px; 
+    font-size: 19px;
+    font-weight: bold;  
+    font-family: 'Titillium Web', sans-serif; 
 }
 
-.redes_sociais a{
-    width: 46.34px;
-    height: 46.34px;
+.redes_sociais button{
+    background-color: #001F70;
+    border: none;
+    width: 117px;
+    height: 32px;
+    color: white;
+    font-size: 19px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.redes_sociais span{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+
+.redes{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.redes img{
+    width: 47px;
+    height: 47px;
 }
