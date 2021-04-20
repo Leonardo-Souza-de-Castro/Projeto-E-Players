@@ -37,7 +37,7 @@ header{
 }
 
 .menu a{
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -426,4 +426,98 @@ footer{
 .redes img{
     width: 47px;
     height: 47px;
+}
+
+
+/* Pagina cadastro de jogadores */
+
+.container_titulo{
+    background-image: linear-gradient(rgba(0, 32, 112, 0.61), rgba(0, 31, 112, 0.61)), url(assets/bg-lol.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_titulo{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_titulo h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 700;    
+}
+
+.container_cadastrar{
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_info_equipe{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgba(0,0,0,1) 100%);
+    width: 770px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+.box_cadastro button{
+    height: 40px;
+    width: 257px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #001F70;
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.equipe{
+    background-color: #ABABAB;
+    width: 575px;
+    height: 30px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.Emblema{
+    background-color: #ABABAB;
+    width: 146px;
+    height: 30px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box_cadastro span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.botao_cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna_titulo{
+    border: 1px solid white;
 }
