@@ -228,11 +228,14 @@ h1{
     background-color: #1E1C21;
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .box_noticia{
     width: 780px;
     height: auto;
+    margin-right: 140px;
 }
 
 .box_noticia h5{
@@ -246,8 +249,14 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 38px;
 }
 
+.box_noticias_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .box_card_noticia{
     width: 222px;
@@ -277,8 +286,105 @@ h1{
     text-align: justify;
 }
 
-.box_noticias_2{
+.box_proximas_partidas{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+
+.titulo_proximas{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+.box_proximas{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgba(0,0,0,1) 100%);
+    height: 731px;
+    width: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_partida_1{
+    height: auto;
+    width: 217px;
+}
+
+.box_partida_1 span{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links_uteis{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 151px;
+}
+
+.links_uteis h6{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 151px;
+}
+
+.links_uteis a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.paginas{
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 151px;
+}
+
+.paginas h6{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 151px;
+}
+
+.paginas a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo_footer{
+    width: 339px;
+    height: 36px;
+}
+
+.redes_sociais{
+    width: 288px;
+    height: auto;
+}
+
+.redes_sociais a{
+    width: 46.34px;
+    height: 46.34px;
+    display: flex;
+    justify-content: space-evenly;
 }
