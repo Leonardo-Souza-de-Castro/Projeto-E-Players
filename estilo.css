@@ -429,7 +429,7 @@ footer{
 }
 
 
-/* Pagina cadastro de jogadores */
+/* Pagina cadastro de times */
 
 .container_titulo{
     background-image: linear-gradient(rgba(0, 32, 112, 0.61), rgba(0, 31, 112, 0.61)), url(assets/bg-lol.jpg);
@@ -469,6 +469,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 56px;
 }
 
 .box_cadastro{
@@ -499,11 +500,7 @@ footer{
 }
 
 .Emblema{
-    background-color: #ABABAB;
-    width: 146px;
-    height: 30px;
     border: none;
-    font-family: 'Roboto', sans-serif;
 }
 
 .box_cadastro span{
@@ -518,6 +515,162 @@ footer{
     justify-content: center;
 }
 
-.coluna_titulo{
-    border: 1px solid white;
+
+.tabela_times h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table{
+    border: 2px white solid;
+    width: 770px;
+    height: auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-spacing: 0;
+    margin-bottom: 56px;
+}
+
+.linha_1{
+    height: 60px;
+    background-color: #010101;
+}
+
+th{
+    border-bottom: 2px solid white;
+    border-collapse: collapse;
+}
+
+/* Pagina cadastro de jogadores */
+
+.container_titulo_2{
+    background-image: linear-gradient(rgba(85, 0, 0, 0.77), rgba(85, 0, 0, 0.77)), url(assets/pilotos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_titulo_2{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_titulo_2 h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 700;    
+}
+
+.container_cadastrar_2{
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box_info_equipe_2{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 21%, rgba(44,44,44,1) 48%, rgba(27,27,27,1) 77%, rgba(0,0,0,1) 100%);
+    width: 770px;
+    height: 629px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.box_cadastro_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+
+.box_cadastro_2 span{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.box_cadastro_2 input{
+    width: 575px;
+    height: 30px;
+    background-color:#ABABAB;
+}
+
+.selecao_equipe{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.selecao_equipe input{
+    width: 575px;
+    height: 30px;
+    background-color:#ABABAB;
+}
+
+.botao_cadastro button{
+    height: 40px;
+    width: 257px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #C31616;
+    color: white;
+    border: none;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;    
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.botao_cadastro{
+    display: flex;
+    justify-content: center;
+}
+
+.tabela_jogadores h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+table{
+    border: 2px white solid;
+    width: 770px;
+    height: 170px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-spacing: 0;
+    margin-bottom: 56px;
+}
+
+.linha_1{
+    height: 60px;
+    background-color: #010101;
+}
+
+th{
+    border-bottom: 2px solid white;
+    border-collapse: collapse;
 }
