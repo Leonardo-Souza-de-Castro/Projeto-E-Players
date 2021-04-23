@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastro de Times</title>
+    <script src="https://kit.fontawesome.com/4fc272cd61.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <header>
         <div class="logo">
-            <a href="#"><img src="assets/logo.svg" alt="logo do site"></a>
+            <a href="#" class="e-players"><img src="assets/logo.svg" alt="logo do site"></a>
 
-            <nav class="menu">
-                <a href="#">Home</a>
-                <a href="#">Horários</a>
-                <a href="#">Campeonato</a>
-                <a href="#">Resultados</a>
-                <a href="#">Noticias</a>
+            <nav id="links" class="menu">
+                <a href="#" onclick="botaoDoMenu()">Home</a>
+                <a href="#" onclick="botaoDoMenu()">Horários</a>
+                <a href="#" onclick="botaoDoMenu()">Campeonato</a>
+                <a href="#" onclick="botaoDoMenu()">Resultados</a>
+                <a href="#" onclick="botaoDoMenu()">Noticias</a>
             </nav>
+            <a class="botao_menu" href="javascript:void(0)" onclick="botaoDoMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
         </div>
     </header>
 
@@ -95,5 +99,19 @@
         </div>
     </div>
     </footer>
+    
+    <script>
+        function botaoDoMenu(){
+            var menu = document.getElementById("links");
+            if(menu.style.display === "flex"){
+                // Esconde o Menu
+                menu.style.display = "none";
+            } else{
+                // Mostre o Menu
+                menu.style.display = "flex";
+            }
+        }
+    </script>
+
 </body>
 </html>
