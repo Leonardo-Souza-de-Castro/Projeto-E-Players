@@ -440,6 +440,7 @@ footer{
     background-image: linear-gradient(rgba(0, 32, 112, 0.61), rgba(0, 31, 112, 0.61)), url(assets/bg-lol.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 237px;
     display: flex;
     justify-content: center;
@@ -625,7 +626,7 @@ th{
     margin-bottom: 7px;
 }
 
-.selecao_equipe input{
+.selecao_equipe select{
     width: 575px;
     height: 30px;
     background-color:#ABABAB;
